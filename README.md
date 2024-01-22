@@ -7,13 +7,18 @@ In this report we are analyzing Covid-19 dataset of the following countries: 'Pa
 
 ### Data Cleaning
 Missing Values
-In this section we looked at missing values from the ten (10) variables: Date, Country/Region, Confirmed	Deaths, Recovered, Active, New cases, New deaths, New recovered, WHO Region. We found that there are no missing variables in our dataset. However if they were present, depending on the no of missing values present, we can do one of the following:
+In this section we looked at missing values from the ten (10) variables: Date, Country/Region, Confirmed	Deaths, Recovered, Active, New cases, New deaths, New recovered, WHO Region. We found that there are no missing variables in our dataset. However if they were present, depending on the number of missing values present, one of the following can be done:
 ●	Remove rows with missing values (advisable if there are not many)
+
+
 ●	Replace the missing value with the mean/median/mode of the column if is a numeric value
+
 ●	Replace the value with the mode of the column in categorical variables(e.g. if the missing value is female and there are many females than males, there are high chances the missing value is female)
 Anomalies
-●	No duplicates records (rows) in the data.
-●	According to descriptive statistics, we do have anomalies on the data as we have negative values for  min of new death and new recovered fields (refer to anomalies section on the notebook).
+
+● However,	No duplicates records (rows) in the data.
+
+●	According to descriptive statistics, There are anomalies on the data as there are negative values for  minimum number of new death and new recovered fields (refer to anomalies section on the notebook).
 
 ### Data Analysis & Results
 Trends (Refer to figure 1 below)
