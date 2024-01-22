@@ -3,11 +3,12 @@
 #### Group 5 Report
  
 ### Introduction
-In this report we are analyzing Covid-19 dataset of the following countries: 'Panama', 'Papua New Guinea', 'Paraguay', 'Peru', 'Philippines','Poland', 'Portugal', 'Qatar', 'Romania', 'Russia', 'Rwanda', 'Saint Kitts and Nevis', 'Saint Lucia', 'Saint Vincent and the Grenadines', 'San Marino','Sao Tome and Principe', 'Saudi Arabia', 'Senegal', 'Serbia', 'Seychelles', 'Sierra Leone', 'Singapore', 'Slovakia', 'Slovenia', 'Somalia', 'South Africa', 'South Korea', 'South Sudan'. Our dataset consists of 5,452 records (rows) with 10 variables (columns) from 28 Countries. Our report consists of the following sections: Data Cleaning, Data Analysis  & Results and Conclusion.
+This report contains the analysis of Covid-19 dataset of the following countries: 'Panama', 'Papua New Guinea', 'Paraguay', 'Peru', 'Philippines','Poland', 'Portugal', 'Qatar', 'Romania', 'Russia', 'Rwanda', 'Saint Kitts and Nevis', 'Saint Lucia', 'Saint Vincent and the Grenadines', 'San Marino','Sao Tome and Principe', 'Saudi Arabia', 'Senegal', 'Serbia', 'Seychelles', 'Sierra Leone', 'Singapore', 'Slovakia', 'Slovenia', 'Somalia', 'South Africa', 'South Korea', 'South Sudan'. The dataset consists of 5,452 records (rows) with 10 variables (columns) from 28 Countries. the report consists of the following sections: Data Cleaning, Data Analysis & Results and Conclusion.
 
 ### Data Cleaning
 Missing Values
 In this section we looked at missing values from the ten (10) variables: Date, Country/Region, Confirmed	Deaths, Recovered, Active, New cases, New deaths, New recovered, WHO Region. We found that there are no missing variables in our dataset. However if they were present, depending on the number of missing values present, one of the following can be done:
+
 ●	Remove rows with missing values (advisable if there are not many)
 
 
